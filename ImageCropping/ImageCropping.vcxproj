@@ -129,9 +129,13 @@
   <ItemGroup>
     <ClCompile Include="ImageCropping.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="WindowFileChk.cpp" />
+    <ClCompile Include="WindowFileChkImg.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ImageCropping.h" />
+    <ClInclude Include="WindowFileChk.h" />
+    <ClInclude Include="WindowFileChkImg.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

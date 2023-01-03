@@ -151,7 +151,7 @@ inline void printHelp()
 	std::cerr << "Error : Insufficient parameter. \n\n";
 	std::cout << "GUIDE: 3 options below are required.\n";
 	std::cout << "--input (-I) fileName\n";
-	std::cout << "--percentage (-P) The minimum percentage (0-100 in integer) of image to be retained in both x and y directions after binary threshold filtering\n";
+	std::cout << "--percentage (-P) The minimum percentage (0-100 in integer) of image to be retained in both x and y directions after first filtering\n";
 	std::cout << "--force (-F) Forcing to compress to jpeg (y/n)\n\n";
 }
 

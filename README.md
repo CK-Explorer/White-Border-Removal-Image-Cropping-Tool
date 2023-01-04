@@ -13,7 +13,7 @@ A k mean clustering algorithm is implemented after the above step to partition t
 
 | Original | Threshold Filtering | Threshold Filtering with K-mean Clustering |
 | ------------- | ------------- | ------------- |
-| <img src="result/IMG_0001_original.jpg" width=100% height=100%> | <img src="result/IMG_0001_no_clustering.jpg" width=100% height=100%> | <img src="result/IMG_0001_with_clustering.jpg" width=100% height=100%> |
+| {[c]}<img src="result/IMG_0001_original.jpg" width=100% height=100%> | <img src="result/IMG_0001_no_clustering.jpg" width=100% height=100%> | <img src="result/IMG_0001_with_clustering.jpg" width=100% height=100%> |
 
 With the extra clustering process involved, the width of the white border is significantly reduced. 
 

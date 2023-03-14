@@ -80,4 +80,4 @@ ImageCropping.exe -I IMG_0001.jpg -F y -P 95
 
 ## :warning: License
 
-This project is licensed under the MIT license - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the Apache-2.0 license - see the [LICENSE.md](LICENSE.md) file for details

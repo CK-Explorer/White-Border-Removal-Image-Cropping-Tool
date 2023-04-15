@@ -6,7 +6,7 @@
 
 This tool is designed specifically to remove white borders of the lossy compressed (e.g jpeg) images. 
 
-Since those white borders are also affected by noise, they could be hardly filtered by just using contour detection after binary threshololding. 
+Since those white borders are also affected by noise, they could be hardly filtered by just using contour detection after inverted binary threshololding. 
 
 A k mean clustering algorithm is implemented after the above step to partition those columns and rows into two main categories, i.e. possible white borders and impossible, which then returns the rectangle edges' coordinates to crop the image, with the following result:
 
